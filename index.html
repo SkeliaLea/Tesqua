@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+	<head>
+		<title>USER LOGIN</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body style="background-image: url(static/img/school.jpg);background-repeat: no-repeat; background-size: cover;">
+		<div >
+		<div class="w3-card-4 w3-animate-top" style="width:30%;height:300px;margin-left:35%;margin-top:5%;">
+			<div class="w3-container w3-indigo w3-padding">
+				<div class="w3-right"><b>ADMIN LOGIN</b></div>
+			</div>
+			<div class="w3-container w3-left" style="margin-top:10%;width:100%;">
+				<br>
+				<form action="{{ url_for('login') }}" method="POST">
+					<div class="msg">WELCOME!</div> <br>
+					<input type="text" id="username" name="username" class="w3-input" placeholder="USERNAME">
+					<br>
+					<input type="password" id="password" name="password" class="w3-input" placeholder="PASSWORD">
+					<br>
+					<input type="submit" class="w3-button w3-indigo" value="LOGIN">
+					<br><br>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
