@@ -10,6 +10,12 @@ Log in form with only error and logged in successfully messages and database
   - Python 3.8 (64 Bit for Windows 10)
   - Gitbash
 
+*Install libraries in the gitbash
+ -pip install Flask
+ -pip install flask-mysqldb
+ -pip install flask-cors
+ -pip install mysql-connector-python
+ -and etc.
 *Import the database file 'user_db' to the xampp
 *Right click anywhere in the file and click "Gitbash here" to execute the program
 *Run "py -m flask run"
